@@ -1,1 +1,22 @@
 hello 
+
+
+[root@master Test-repo]# history
+    1  ping google.com
+    2  yum install git
+    3  git clone https://github.com/jeet405/Test-repo.git
+    4  ls -ltr
+    5  cd Test-repo/
+    6  ls -ltr
+    7  git push https://github.com/jeet405/Test-repo.git
+    8  ls
+    9  echo "hello " > test.txt
+   10  git status
+   11  git add test.txt
+   12  git status
+   13  git commit -m "aded"
+   14  git config --global user.email "jeet.das@accenture.com"
+   15  git config --global user.name "jeet"
+   16  git commit -m "aded"
+   17  git push
+   18  history
